@@ -1,0 +1,28 @@
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+.omx/
+.hermes/
+# Common generated agent/review residue. Do not use these paths for product data.
+.manual-review/
+.auto-review/
+.claude/sessions/
+.claude/prompts/
+.claude/summaries/
+.codex/sessions/
+.codex/prompts/
+.codex/summaries/
+/runner.log
+/session.log
+/trace.jsonl
+/events/*.jsonl
+/prompts/
+/summaries/
