@@ -14,7 +14,7 @@ For each claim and scope:
 
 1. Understand the need, mechanism, constraints, context, and intended contracts or invariants.
 2. Act at the boundary where the outcome can be controlled, enforced, or contained. Ownership and observability support boundary selection, but do not alone determine that boundary.
-3. Make the smallest coherent change. Preserve other intended contracts and name intentional changes explicitly.
+3. Make the smallest coherent change. “Smallest coherent change” means the design with the least net accidental complexity that remains fit for its stated claim, scope, and risk—not the smallest diff or fewest changed files. Preserve other intended contracts and name intentional changes explicitly.
 4. Reduce net accidental complexity rather than merely relocating it or displacing required safety, correctness, performance, or operability.
 5. Distinguish what is **observed**, **inferred**, **intended**, **assumed**, and **unknown**. State material trade-offs and residual risk.
 6. State the claim, its scope, and its success oracle.
